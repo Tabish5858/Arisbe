@@ -1,0 +1,40 @@
+@media(min-width: 352px) and (max-width: 380px) {
+    nav,
+    #page1,
+    #main1,
+    #page2,
+    #page3,
+    #page4,
+    #page5,
+    #page6,
+    #page7,
+    #page8,
+    #page9,
+    #page10,
+    #copyright{
+        width: 88rem;
+    }
+    #main1Left>img {
+        width: 42.5625rem;
+        height: 20.94444rem;}
+}
+@media(min-width: 300px) and (max-width: 352px) {
+    nav,
+    #page1,
+    #main1,
+    #page2,
+    #page3,
+    #page4,
+    #page5,
+    #page6,
+    #page7,
+    #page8,
+    #page9,
+    #page10,
+    #copyright{
+        width: 80rem;
+    }
+    #main1Left>img {
+        width: 30.5625rem;
+        height: 18.94444rem;}
+}

@@ -1,0 +1,1296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* ************ ✅✅ Header ✅✅ ************* */
+
+
+
+
+
+
+nav {
+    width: 94.97rem;
+    display: flex;
+    padding: 1.25rem 7.5rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #E8E8E8;
+    background: #FFF;
+}
+
+#navLogo>img {
+    width: 14.19894rem;
+    height: 5.0625rem;
+    cursor: pointer;
+}
+
+#navMenu>ul {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    gap: 3rem;
+    color: #373737;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+}
+
+#navMenu>ul>li {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ************ ✅✅ Page 1 ✅✅ ************* */
+
+
+
+#page1 {
+    align-self: stretch;
+
+}
+
+#main1 {
+    width: 94.97rem;
+
+    padding-left: 7.5rem;
+    display: flex;
+    flex-shrink: 0;
+    padding-top: 8.5rem;
+    height: 50rem;
+}
+
+#right1Data {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#right1Data>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.5rem;
+}
+
+#right1Data>p {
+    width: 34.0625rem;
+    color: #3F3F3F;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+#right1Btn {
+    position: relative;
+    top: 2.25rem;
+}
+
+#right1Btn>button {
+    display: flex;
+    width: 13.625rem;
+    padding: 1.125rem 2.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    border: 2px solid #BF985A;
+}
+
+#right1Btn>button {
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    background-color: #FFF;
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+}
+
+#right1Btn>button>img {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+#main1Left {
+    position: relative;
+    z-index: -1;
+    top: 6rem;
+    right: 2.52rem;
+    flex-shrink: 0;
+    /* padding-bottom: 10rem; */
+}
+
+#main1Left>img {
+    width: 49.5625rem;
+    height: 25.94444rem;
+    flex-shrink: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+/* ************ ✅✅ Page 2 ✅✅ ************* */
+
+
+#page2 {
+    width: 94.97rem;
+
+    display: flex;
+    padding: 8.75rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background: #FDFCF8;
+}
+
+#main2Lines {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.lines2 {
+    width: 4.5rem;
+    height: 0.1875rem;
+    background: #D5CFBC;
+}
+
+#main2Lines>.lines2:nth-child(1) {
+    background: #F30000;
+}
+
+#main2Data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 4rem;
+    gap: 3rem;
+}
+
+#main2Data>p {
+    width: 66.3125rem;
+    color: #595751;
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#main2Data>h1 {
+    color: #78766F;
+    text-align: center;
+    font-family: Para Grand TRIAL;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+
+/* ************ ✅✅ Page 3 ✅✅ ************* */
+
+#page3 {
+    display: flex;
+    width: 94.97rem;
+
+    padding: 6.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: #FFF;
+}
+
+#main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+#main3>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+#main3Data {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.data3Box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.data3Box>img {
+    width: 25.66669rem;
+    height: 33.25rem;
+}
+
+.box3Data {
+    display: flex;
+    width: 25.66669rem;
+    padding: 1.25rem 0rem;
+    align-items: center;
+    gap: 1rem;
+    border-top: 3px solid #2D2D2D;
+}
+
+.box3Data>h1 {
+    color: #2D2D2D;
+    font-family: Minion Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem;
+}
+
+.box3Data>img {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+
+/* ************ ✅✅ Page 4 ✅✅ ************* */
+
+
+#page4 {
+    display: flex;
+    padding: 6.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: #FFF;
+    width: 94.97rem;
+
+
+}
+
+#main4 {
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+#main4Head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+}
+
+#main4Head>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+#main4Head>p {
+    align-self: stretch;
+    color: #545454;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#main4Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.data4Box {
+    display: flex;
+    width: 80rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data4BoxLeft {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.data4BoxLeft>img {
+    display: flex;
+    width: 7.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left4BoxData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left4BoxData>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+}
+
+.left4BoxData>p {
+    color: #545454;
+    font-family: Minion Pro;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+
+.data4BoxRight {
+    display: flex;
+    padding: 1rem 1.25rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.data4Boxright>button {
+    display: flex;
+    padding: 1rem 1.25rem;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid #BF985A;
+    background: #FFF;
+}
+
+.data4Boxright>button>h1 {
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.03375rem;
+    text-transform: uppercase;
+}
+
+.data4Boxright>button>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#main4Btn {
+    display: flex;
+    padding: 0.75rem 0rem;
+    align-items: center;
+    gap: 0.75rem;
+    border-bottom: 2px solid #BF985A;
+    background: #FFF;
+}
+
+#main4Btn>h1 {
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.045rem;
+    text-transform: uppercase;
+}
+
+#main4Btn>img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 5 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+#page5 {
+    display: flex;
+    width: 94.97rem;
+
+    padding: 6.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: #840000;
+}
+
+#main5 {
+    display: flex;
+    width: 80rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+#main5Head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+}
+
+#main5Head>h1 {
+    color: #FFF;
+    font-family: Para Grand TRIAL;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+#main5Head>p {
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+    align-self: stretch;
+}
+
+#main5Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    align-self: stretch;
+}
+
+#main5DataTop {
+    display: flex;
+    align-items: flex-start;
+    gap: 7.5rem;
+    align-self: stretch;
+}
+
+.data5Box {
+    display: flex;
+    padding: 1.5rem 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-top: 4px solid #DAA551;
+}
+
+.box5Head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    align-self: stretch;
+}
+
+.box5Head>h1 {
+    color: #FFF;
+    font-family: Para Grand TRIAL;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    /* 144.444% */
+    align-self: stretch;
+}
+
+.box5Head>p {
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    /* 141.667% */
+    align-self: stretch;
+}
+
+.box5Btn {
+    display: flex;
+    padding: 1rem 1.25rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.box5Btn>button {
+    display: flex;
+    padding: 1rem 1.25rem;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid #FFF;
+    background-color: transparent;
+}
+
+.box5Btn>button>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.03375rem;
+    text-transform: uppercase;
+}
+
+.box5Btn>button>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#main5DataBottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 7.5rem;
+    align-self: stretch;
+}
+
+
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 6 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+
+
+#page6 {
+    display: flex;
+    padding: 6.25rem 0rem;
+    background: #FDFCF8;
+    width: 94.97rem;
+
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#main6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+#main6Head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+#main6Head>h1 {
+    color: #3D3B36;
+    font-family: Para Grand TRIAL;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+#main6Head>p {
+    width: 42.375rem;
+    color: #585652;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#main6Data {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.data6Box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -11.5rem;
+}
+
+.data6Box>img {
+    height: 33.25rem;
+    align-self: stretch;
+}
+
+.box6Data {
+    position: relative;
+    display: flex;
+    width: 25.66669rem;
+    padding: 1.5rem 2rem 1.375rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.70);
+    background-color: #000000B2;
+}
+
+.box6Data>h2 {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Minion Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 7 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+
+#page7 {
+    display: flex;
+    padding: 6.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 94.97rem;
+
+
+}
+
+#main7 {
+    display: flex;
+    width: 80rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+#main7Head>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+#main7Data {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
+}
+
+#main7Left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+#Left7Img>img {
+    width: 45rem;
+    height: 38.25rem;
+}
+
+#left7Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#left7Data>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+#left7Data>p {
+    width: 42.375rem;
+    color: #545454;
+    font-family: Minion Pro;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#left7DataHead {
+    display: flex;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-top: 2px solid #707070;
+}
+
+#left7DataHead>h2 {
+    color: #707070;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+}
+
+#data7Right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    flex: 1 0 0;
+}
+
+.right7Box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.right7Box>img {
+    height: 16.4375rem;
+    align-self: stretch;
+}
+
+.right7BoxData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.right7BoxData>h1 {
+    color: #2D2D2D;
+    font-family: Para Grand TRIAL;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    align-self: stretch;
+}
+
+.right7BoxData>p {
+    color: #545454;
+    font-family: Minion Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    align-self: stretch;
+}
+
+.box7DataHead {
+    display: flex;
+    padding: 0.75rem 0rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-top: 2px solid #707070;
+}
+
+.box7DataHead>h2 {
+    color: #707070;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+}
+
+#data7Line>#line7 {
+    width: 0.0625rem;
+    height: 50.875rem;
+    background: #D3D3D3;
+}
+
+
+
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 8 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+
+
+
+
+
+
+#page8 {
+    display: flex;
+    width: 94.97rem;
+
+
+    padding: 6.25rem 4.5rem;
+    background: #FDFCF8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#main8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    align-self: stretch;
+}
+
+#main8Head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+#main8Head>h1 {
+    color: #3D3B36;
+    font-family: Para Grand TRIAL;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+#main8Head>p {
+    color: #585652;
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#main8Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: -0.0625rem;
+}
+
+.main8DataBox {
+    display: flex;
+    width: 81rem;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: -0.0625rem;
+}
+
+.data8Box {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1 0 0;
+    border: 1px solid #E7E7E7;
+    background: #FFF;
+    height: 17.5rem;
+}
+
+.data8BoxMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.data8BoxMainHead {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.data8BoxMainHead>img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.25rem;
+}
+
+.data8BoxMainHeadData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.data8BoxMainHeadData>h1 {
+    color: #3D3B36;
+    font-family: Para Grand TRIAL;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.data8BoxMainHeadData>p {
+    color: #585652;
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.data8BoxMain>p {
+    align-self: stretch;
+    color: #585652;
+    font-family: Minion Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+
+
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 9 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+
+
+
+
+#page9 {
+    display: flex;
+    padding: 5rem 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #1C1C1C;
+    width: 94.97rem;
+
+
+}
+
+#page9Left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+#page9Left>h1 {
+    color: #FFF;
+    font-family: Para Grand TRIAL;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+#page9Left>p {
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+    width: 42.375rem;
+}
+
+#page9Right>button {
+    display: flex;
+    width: 33.8125rem;
+    padding: 1.125rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    border: 2px solid #C18B35;
+    background-color: transparent;
+}
+
+#page9Right>button>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    /* 140% */
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+}
+
+#page9Right>button>img {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ Page 10 ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+
+
+
+
+#page10 {
+    width: 94.97rem;
+
+    display: flex;
+    padding: 4rem 4.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background: #131313;
+}
+
+#main10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#main10Img>img {
+    width: 13.32244rem;
+    height: 4.75rem;
+}
+
+#main10Data {
+    display: flex;
+    align-items: flex-start;
+    gap: 7.5rem;
+}
+
+#data10Box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#data10Box1>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+#data10Box1>ul>li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+#data10Box1>ul>li>img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#data10Box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#data10Box2>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+#data10Box2>ul>li {
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+#data10Box2>ul>li:nth-child(1) {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+}
+
+#data10Box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#data10Box3>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+#data10Box3>ul>li {
+    color: #EDEDED;
+    font-family: Minion Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+#data10Box3>ul>li:nth-child(1) {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+}
+
+
+
+
+/*✅✅✅✅✅✅✅✅✅✅ CopyRight ✅✅✅✅✅✅✅✅✅✅✅✅ */
+
+
+#copyright {
+    display: flex;
+    padding: 1.5rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    border-top: 1px solid #3F3F3F;
+    background: #131313;
+    width: 94.97rem;
+
+}
+
+#copyright>p {
+    color: #FFF;
+    font-family: Minion Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
